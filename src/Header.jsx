@@ -1,3 +1,12 @@
+import BackgroundImage from "./BackgroundImage";
+import Heading from "./Heading";
+
 export default function Header() {
-  return <header>Header</header>;
+  return (
+    <header>
+      <BackgroundImage />
+
+      <Heading />
+    </header>
+  );
 }
